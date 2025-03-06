@@ -12,9 +12,10 @@ if c != 10:
 # En un hospital quieren saber cuántos de los niños nacidos en 2024 son niños o niñas para regalar a los padres un descuento de 50 dólares en la cuenta del hospital si son niñas.
 # En caso contrario, solo tendrá un descuento de 30 dólares. Solicite a los padres el sexo del niño y calcule el descuento.
 
+cuenta = float(input("Ingrese la cuenta a pagar"))
 sexo = input("Ingrese 1 si su recién nacido es niña y 0 si su recién nacido es niño: ")
 if sexo == 1:
-    descuento = 50
+    descuento = cuenta - 50
 else:
-    descuento = 30
+    descuento = cuenta - 30
 print(f"El descuento en la cuenta es de: {descuento}")

@@ -1,12 +1,19 @@
 # Operaciones Aritméticas
+a = int(input("Escoja el primer número: "))
+b = int(input("Escoja el segundo número: "))
 
 print("S. suma\nR. Resta\nD. División\nM. Multiplicación")
-opcion = int(input("Elija una opción: "))
+opcion = input("Elija una opción: ")
 
 if opcion == 'S':
-    print("Sumar")
+    resultado = a + b
 elif opcion == 'R':
-    print("Restar")
+    resultado = a - b
 elif opcion == 'D':
-    print("Dividir")
-    
+    resultado = a / b
+elif opcion == 'M':
+    resultado = a * b
+else:
+    print("Valor no válido")
+
+print(resultado)

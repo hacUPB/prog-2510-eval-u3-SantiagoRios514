@@ -127,18 +127,19 @@ if eliminar == 'S':
     ing_el = input("Ingrese el ingrediente a eliminar: ").capitalize()
 
 print("\nSu pedido final es:")
-if plato == 'H':
-    print(f"Plato: Hamburguesa")
-    if ing_el != "":
-        print(f"Sin {ing_el}")
-elif plato == 'P':
-    print(f"Plato: Pollo Frito")
-    if ing_el != "":
-        print(f"Sin {ing_el}")
-elif plato == 'S':
-    print(f"Plato: Sándwich de Pollo")
-    if ing_el != "":
-        print(f"Sin {ing_el}")
+match plato:
+    case 'H':
+        print(f"Plato: Hamburguesa")
+        if ing_el != "":
+            print(f"Sin {ing_el}")
+    case 'P':
+        print(f"Plato: Pollo Frito")
+        if ing_el != "":
+            print(f"Sin {ing_el}")
+    case 'S':
+        print(f"Plato: Sándwich de Pollo")
+        if ing_el != "":
+            print(f"Sin {ing_el}")
 if ac_final != "":
     print(f"Acompañamiento: {ac_final}")
 if bebida_final != "":

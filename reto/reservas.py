@@ -26,7 +26,7 @@ if dist < 400:
 else:
     precios = [156900, 213000]
 
-if dia_s == ('viernes' or 'sábado' or 'domingo'):
+if dia_s == 'viernes' or dia_s == 'sábado' or dia_s == 'domingo':
     precio = precios[1]
 else:
     precio = precios[0]

@@ -1,5 +1,7 @@
 # Retos Unidad 2
 
+**[Video Explicación Retos U3](https://upbeduco-my.sharepoint.com/:v:/g/personal/santiago_riosd_upb_edu_co/EYxqvTtsEt9LoXMq0n1VSJgBIZjeLv0LjUaUWoWhel5jWA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HsOGlH)**
+
 ## Reto 1
 
 ### Descripçión del programa
